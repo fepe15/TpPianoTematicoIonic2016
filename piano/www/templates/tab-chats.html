@@ -1,0 +1,14 @@
+<ion-view view-title="Login">
+  <ion-content class="padding">
+      <div class="bar bar-header bar-calm"> 
+        <h1 class="title">Bienvenido a TriviaDepo</h1>
+      </div><br><br><br><br>
+      <div class="list">
+        <input style="width:100%;" type="text" id="usuario" name="usuario" placeholder="Ingrese Nombre" ng-model="usuario" required=""><br><br>
+        <button class="button button-block button-positive" ng-click="Jugar()" ng-disabled="(usuario == null) " >
+          J U G A R . . .
+        </button>
+    </div>
+
+  </ion-content>
+</ion-view>
