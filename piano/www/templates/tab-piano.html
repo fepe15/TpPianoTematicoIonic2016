@@ -1,0 +1,33 @@
+<ion-view view-title="Dashboard">
+  <ion-content class="fondo-inicio" id="ion-cont">
+    
+  <div ng-hide="Ver">
+      <div class="wrapInicio" style="padding-top:2em;">
+        <p>Sonidos de instrumentos</p>
+        <input type="text" id="usuario" name="usuario" ng-model="usuario.nombre" class="usuario-nombre" placeholder="Ingresa Nombre" required>
+      <button class="button button-calm boton-comenzar" ng-click="Empezar()" ng-disabled="!usuario.nombre">Iniciar!!!</button>
+
+      </div>
+  </div>
+
+  <div ng-show="Ver">
+    
+    <div class="container">
+      <div class="row center-xs middle-xs cont-botones">
+        <div class="col-md-4 col-sm-6 col-xs-12"><button class="button instrumentos" id="armonica" ng-disabled="toco" ng-click="Sonar('armonica')"><img src="img/armonica.png" alt=""></button></div>
+
+        <div class="col-md-4 col-sm-6 col-xs-12"><button class="button instrumentos" id="flauta" ng-disabled="toco" ng-click="Sonar('flauta')"><img src="img/flauta.png" alt=""></button></div>
+
+        <div class="col-md-4 col-sm-6 col-xs-12"><button class="button instrumentos" id="guitarra" ng-disabled="toco" ng-click="Sonar('guitarra')"><img src="img/guitarra.png" alt=""></button></div>
+      </div>
+      <div class="row center-xs middle-xs cont-botones">
+        <div class="col-md-4 col-sm-6 col-xs-12"><button class="button instrumentos" id="trombon" ng-disabled="toco" ng-click="Sonar('trombon')"><img src="img/trombon.png" alt=""></button></div>
+        <div class="col-md-4 col-sm-6 col-xs-12"><button class="button instrumentos" id="trompeta" ng-disabled="toco" ng-click="Sonar('trompeta')"><img src="img/trompeta.png" alt=""></button></div>
+        <div class="col-md-4 col-sm-6 col-xs-12"><button class="button instrumentos" id="violin" ng-disabled="toco" ng-click="Sonar('violin')"><img src="img/violin.png" alt=""></button></div>
+      </div>
+    </div>
+
+  </div>
+
+  </ion-content>
+</ion-view>

@@ -1,1 +1,180 @@
-/* Empty. Add your own CSS if you like */
+
+/* Estilos Autor */
+
+.fondo-autor{
+  width:70%;
+  margin: 10px auto;
+}
+
+.img-perfil {
+  background-image: url("../img/yo.jpg");
+  background-position: center;
+  background-size: 150px 150px;
+  height:100px;
+  width: 100px;
+  margin:30px auto;
+  border-radius: 50%;
+  -moz-border-radius: 50%;
+  -webkit-border-radius: 50%;
+  border:3px solid #666;
+  position: relative;
+  top:35px;
+  z-index: 4;
+}
+
+
+
+.color-fondo-autor{
+background: #abbdfd; /* Old browsers */
+background: -moz-linear-gradient(top,  #abbdfd 0%); /* FF3.6-15 */
+background: -webkit-linear-gradient(top,  #abbdfd 0%); /* Chrome10-25,Safari5.1-6 */
+background: linear-gradient(to bottom,  #abbdfd 0%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#abbdfd',GradientType=0 ); /* IE6-9 */
+
+}
+
+.color-fondo-autor-cards{
+  /* Permalink - use to edit and share this gradient: http://colorzilla.com/gradient-editor/#d6f9ff+0,9ee8fa+100;Blue+3D */
+background: #7c98fd; /* Old browsers */
+background: -moz-linear-gradient(top,  #7c98fd 0%); /* FF3.6-15 */
+background: -webkit-linear-gradient(top,  #7c98fd 0%); /* Chrome10-25,Safari5.1-6 */
+background: linear-gradient(to bottom,  #7c98fd 0%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#7c98fd',GradientType=0 ); /* IE6-9 */
+
+}/* Empty. Add your own CSS if you like */
+
+
+
+/* Estilos Inicio*/
+
+
+.keyboard-open .tabs{
+  display:none;
+  }
+.keyboard-open .has-tabs{
+ bottom:0;
+ }
+
+.usuario-nombre{
+  width:100%;
+  background-color:orange;
+  font-size:3em;
+  color:#666;
+  margin-top: 2em;
+}
+
+
+.wrapInicio {
+background: #ffffff; /* Old browsers */
+background: -moz-linear-gradient(top,  #ffffff 0%, #f3f3f3 50%, #ededed 51%, #ffffff 100%); /* FF3.6-15 */
+background: -webkit-linear-gradient(top,  #ffffff 0%,#f3f3f3 50%,#ededed 51%,#ffffff 100%); /* Chrome10-25,Safari5.1-6 */
+background: linear-gradient(to bottom,  #ffffff 0%,#f3f3f3 50%,#ededed 51%,#ffffff 100%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#ffffff', endColorstr='#ffffff',GradientType=0 ); /* IE6-9 */
+
+color:#000;
+margin: 225px auto;
+width:50%;
+height:250px;
+border-radius: 10px;
+-moz-border-radius: 10px;
+-webkit-border-radius: 10px;
+box-shadow: -10px 10px 5px #888888;
+-moz-box-shadow: -10px 10px 5px #888888;
+-webkit-box-shadow: -10px 10px 5px #888888;
+
+}
+
+.wrapInicio p{
+	text-align: center;
+	font-size: 25px;
+	font-family: 'Baloo Bhaina', cursive;
+}
+
+.fondo-inicio{
+  background-image: url("../img/fondo-music.jpg");
+  height: 100%;
+  width: 100%;
+  background-size: 100% 100%;
+  background-repeat: no-repeat;
+}
+
+.fondo-juego{
+  background-image: url("../img/fondo-music.jpg");
+  height: 100%;
+  width: 100%;
+  background-size: 100% 100%;
+  background-repeat: no-repeat;
+
+}
+
+.boton-comenzar{
+	width:100%;
+	margin: 60px auto;
+}
+
+
+/* Estilos Piano */
+
+.cont-botones {
+	margin:80px auto;
+}
+
+.button{
+	margin: 0px 0;
+}
+
+.button img{
+	width:100px;
+	height: 100px;
+}
+
+.instrumentos{
+	background-color: #C0C0C0;
+}
+
+.button[disabled]{
+  opacity:1;
+}
+
+
+/*Animacion Boton */
+
+@-webkit-keyframes girando {
+  from { -webkit-transform: rotateY(0deg);
+  		transform: rotateY(0deg);    }
+  to   { -webkit-transform: rotateY(-360deg);
+  		transform: rotateY(-360deg); }
+}
+
+.girando {
+   -webkit-animation-name: girando;
+   -webkit-animation-timing-function: linear;
+   -webkit-animation-iteration-count: 3;
+   -webkit-animation-duration: 1s;
+   animation-name: girando;
+   animation-timing-function: linear;
+   animation-iteration-count: 3;
+   animation-duration: 1s;
+}
+
+
+/*Estilos Lectura*/
+
+.oscuro  {
+  background: #444;
+  padding: 60px;
+  }
+   
+#esquina  {
+ background: #fff url(../img/imagen3.jpg) bottom right no-repeat;
+}
+ 
+#esquina p  {
+  padding: 50px;
+  margin: 0;
+  height: 500px;
+}
+
+#esquina  {
+ background: #fff url(../img/imagen3.jpg) bottom right no-repeat;
+ }
